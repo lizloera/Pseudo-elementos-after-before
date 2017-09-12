@@ -1,0 +1,26 @@
+.origen::before{
+	content: 'antes';
+	padding: 0px 15px;
+
+}
+.origen::after{
+	content: 'despues';
+	border: 1px solid #000;
+}
+/*
+.origen span {
+	position: relative;
+	text-decoration: underline;
+	cursor: help;
+
+}
+.origen span:hover:after {
+	content: 'Informacion';
+	position: absolute;
+	top: 25px;
+	left: 0;
+	padding: 0 10px;
+	background: #ffff00;
+	border: 1px solid #000;
+	border-radius: 5px;
+
